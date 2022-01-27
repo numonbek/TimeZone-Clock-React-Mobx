@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import { observer } from 'mobx-react-lite';
 import './App.css';
+import { Clock } from './components/Clock';
+import todo from './store/timezone';
 
-function App() {
+window.addEventListener('DOMContentLoaded', todo.fetchTodos());
+
+const App = observer(() => {
+  setInterval(() => {
+    todo.setTimeZone();
+  }, 1000);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Clock />
     </div>
   );
-}
+});
 
 export default App;
