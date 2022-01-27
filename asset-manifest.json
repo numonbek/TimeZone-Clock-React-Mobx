@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/timezone-clock-react-mobx/static/css/main.e70eba82.chunk.css",
+    "main.js": "/timezone-clock-react-mobx/static/js/main.9c4e7cde.chunk.js",
+    "main.js.map": "/timezone-clock-react-mobx/static/js/main.9c4e7cde.chunk.js.map",
+    "runtime-main.js": "/timezone-clock-react-mobx/static/js/runtime-main.5d42591f.js",
+    "runtime-main.js.map": "/timezone-clock-react-mobx/static/js/runtime-main.5d42591f.js.map",
+    "static/js/2.9d0134d6.chunk.js": "/timezone-clock-react-mobx/static/js/2.9d0134d6.chunk.js",
+    "static/js/2.9d0134d6.chunk.js.map": "/timezone-clock-react-mobx/static/js/2.9d0134d6.chunk.js.map",
+    "index.html": "/timezone-clock-react-mobx/index.html",
+    "static/css/main.e70eba82.chunk.css.map": "/timezone-clock-react-mobx/static/css/main.e70eba82.chunk.css.map",
+    "static/js/2.9d0134d6.chunk.js.LICENSE.txt": "/timezone-clock-react-mobx/static/js/2.9d0134d6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d42591f.js",
+    "static/js/2.9d0134d6.chunk.js",
+    "static/css/main.e70eba82.chunk.css",
+    "static/js/main.9c4e7cde.chunk.js"
+  ]
+}
